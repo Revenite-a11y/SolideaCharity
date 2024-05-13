@@ -40,11 +40,11 @@ const HomePage = () => {
               <Text style={[styles.shopNow, styles.textLayout]}>Shop now</Text>
             </View>
           </View>
-          <Image
+          {/* <Image
             style={styles.instanceItem}
             resizeMode="cover"
             source={require("../assets/rectangle-2.png")}
-          />
+          /> */}
         </View>
       </Pressable>
       <View style={[styles.latestItems, styles.ctaPosition]}>
@@ -155,7 +155,7 @@ const HomePage = () => {
               <Text style={styles.oneShoulderTop2}>Crop Top</Text>
               <View style={styles.parent}>
                 <Text style={[styles.off, styles.textLayout]}>$4.00</Text>
-                <Text style={[styles.text7, styles.textTypo]}>$6.00</Text>
+                {/* <Text style={[styles.text7, styles.textTypo]}>$6.00</Text> */}
               </View>
             </View>
           </View>
@@ -691,11 +691,11 @@ const styles = StyleSheet.create({
     color: Color.colorSecondaryColor,
     fontWeight: "500",
   },
-  text7: {
-    textDecoration: "line-through",
-    lineHeight: 8,
-    fontSize: FontSize.body10R_size,
-  },
+  // text7: {
+  //   textDecoration: "line-through",
+  //   lineHeight: 8,
+  //   fontSize: FontSize.body10R_size,
+  // },
   parent2: {
     marginLeft: 15,
     alignItems: "center",

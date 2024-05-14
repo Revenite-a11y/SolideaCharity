@@ -2,7 +2,7 @@ const Stack = createNativeStackNavigator();
 import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 
-import HomePage from "./android/app/Pages/HomePage";
+import HomePage from "./android/app/pages/HomePage";
 import UserProfile from "./android/app/Pages/UserProfile";
 
 
